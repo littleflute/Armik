@@ -1,6 +1,6 @@
 
 <audio controls id="player"> 
-  <source src="https://littleflute.github.io/Armik/Besos/cd/01_曲目 1.mp3" type="audio/mpeg">
+  <source src="https://littleflute.github.io/Armik/Guitarrista/cd/01_曲目 1.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 <div id="xd"> 
@@ -9,7 +9,7 @@ Your browser does not support the audio element.
 var d = document.getElementById("xd"); 
 var html = d.innerHTML; 
 html += " Armik<br>Besos<br>CD:<br>";
-for(var n=1; n<=12; n++)
+for(var n=1; n<=11; n++)
 {	
  	html += fNewBtn(n);
 
@@ -19,7 +19,7 @@ d.innerHTML = html;
 var p = document.getElementById("player");
 function f(i)
 {
-    var s = "https://littleflute.github.io/Armik/Besos/cd/";
+    var s = "https://littleflute.github.io/Armik/Guitarrista/cd/";
     if(i<10) 
     {
     	s += "0";
